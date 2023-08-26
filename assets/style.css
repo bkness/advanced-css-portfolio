@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 58, 67);
+    height: 80px;
+    padding: 0 20px 0 0;
+}
+
+header h1 {
+    font-size: 300%;
+    padding-left: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: aqua;
+}
+
+header nav a:hover{
+    color: blue;
+}
+
+.box {
+    background-image: url(https://png.pngtree.com/background/20220714/original/pngtree-blue-arrows-picture-image_1604501.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}   
+
+.box h2{
+    margin: 20px;
+    background-color: aqua;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    
+}
+
+section h3 {
+    flex: 0 0 20%;
+    border-right: 3px solid gray;
+    font-size: 250%;
+}
+
+section div {
+   flex: 0 0 77%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    border: 3px solid aqua;
+    min-height: 200px;
+    max-height: 200px;
+    flex-basis: calc(50% - 1em);
+    margin: 6px;
+}
+
+.first {
+    min-height: 400px;
+    flex-basis: 100%;
+}
