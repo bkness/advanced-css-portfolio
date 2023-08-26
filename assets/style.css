@@ -26,6 +26,7 @@ header nav {
 }
 
 header nav a {
+    font-size: 150%;
     margin-left: 20px;
     color: aqua;
 }
@@ -71,6 +72,11 @@ main {
     
 }
 
+.div2 {
+    font-size: 150%;
+    font-family: sans-serif;
+}
+
 section h3 {
     flex: 0 0 20%;
     border-right: 3px solid gray;
@@ -88,7 +94,7 @@ section div {
 }
 
 .item {
-    border: 3px solid aqua;
+    border: 5px solid aqua;
     min-height: 200px;
     max-height: 200px;
     flex-basis: calc(50% - 1em);
@@ -98,4 +104,22 @@ section div {
 .first {
     min-height: 400px;
     flex-basis: 100%;
+}
+
+.item div {
+    
+    background-color: aqua;
+    padding-left: 1%;
+    height: 8vh;
+    width: 18vh;
+    font-family: sans-serif;
+}
+
+section nav a {
+    font-size: 150%;
+     font-family: sans-serif;
+ }
+
+ section nav a:hover{
+    color: red;
 }
