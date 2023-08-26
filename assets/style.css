@@ -107,16 +107,64 @@ section div {
 }
 
 .item div {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
     background-color: aqua;
     padding-left: 1%;
     height: 8vh;
-    width: 18vh;
+    width: 25vh;
     font-family: sans-serif;
 }
 
+.container .first {
+    background-image: url(https://www.santacruz.org/wp-content/uploads/theme/Surfing-in-Santa-Cruz-Homepage-Banner.jpg);
+}
+
+.container .first:hover{
+    opacity: .8;
+} 
+
+.container .second {
+    background-image: url(https://www.matrixvisual.com/wp-content/uploads/2016/07/LED-Wall-Benefits.png);
+    }
+
+.container .second:hover{
+    opacity: .8;
+}    
+
+.container .third {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4VYSsa0LC6nxUKWQPRlDfkJhd9SENdRuHA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+
+.container .third:hover{
+    opacity: .8;
+}
+
+.container .fourth {
+    background-image: url(https://previews.123rf.com/images/viperagp/viperagp1402/viperagp140200168/26220936-3d-pastel-puzzle-background.jpg);
+}
+
+.container .fourth:hover{
+    opacity: .8;
+}
+
+.container .fifth {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1_qyCU1shy3IgwGS0HbmiKnth6ZeE1KDAag&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+
+.container .fifth:hover{
+    opacity: .8;
+}
+
 section nav a {
-    font-size: 150%;
+    font-size: 170%;
      font-family: sans-serif;
  }
 
