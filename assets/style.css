@@ -16,21 +16,23 @@ header {
 }
 
 header h1 {
-    font-size: 300%;
+    font-size: 7vh;
     padding-left: 2%;
     padding-right: 6px;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
     background-color: aqua;
 }
+    
 
 header nav {
     display: flex;
 }
 
 header nav a {
-    font-size: 150%;
+    font-size: 3vh;
     font-weight: 600;
+    min-width: auto;
     margin-left: 10px;
     color: aqua;
 }
@@ -45,6 +47,7 @@ header nav a:hover {
     background-position: center;
     border: 1px solid black;
     height: 30vh;
+    min-width: auto;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -77,7 +80,7 @@ main {
 }
 
 .div2 {
-    font-size: 150%;
+    font-size: 4vh;
     font-family: sans-serif;
     
 }
@@ -85,7 +88,8 @@ main {
 section h3 {
     flex: 0 0 20%;
     border-right: 3px solid gray;
-    font-size: 250%;
+    font-size: 5vh;
+    width: auto;
 }
 
 section div {
@@ -130,7 +134,7 @@ section div {
 }
 
 .first div {
-    margin-top: 20%;
+    margin-top: 37vh;
     padding-top: 4px
 }
 
@@ -180,9 +184,12 @@ section div {
 
 .box1 nav {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
     margin-top: 3%;
     justify-content: space-between;
-    font-size: 170%;
+    font-size: 3vh;
     font-family: sans-serif;
 }
 
