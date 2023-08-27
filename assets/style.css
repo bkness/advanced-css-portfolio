@@ -196,16 +196,3 @@ section div {
 section nav a:hover {
     color: red;
 }
-
-@media screen and (max-width: 768px) {
-    .container,
-    a {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    #wrap {
-        max-width: 320px;
-    }
-}
