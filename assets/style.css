@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{}
+body {}
 
 header {
     display: flex;
@@ -11,12 +11,15 @@ header {
     align-items: center;
     background-color: rgb(58, 58, 67);
     height: 80px;
+    
     padding: 0 20px 0 0;
 }
 
 header h1 {
     font-size: 300%;
     padding-left: 2%;
+    padding-right: 6px;
+    font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
     background-color: aqua;
 }
@@ -27,11 +30,12 @@ header nav {
 
 header nav a {
     font-size: 150%;
-    margin-left: 20px;
+    font-weight: 600;
+    margin-left: 10px;
     color: aqua;
 }
 
-header nav a:hover{
+header nav a:hover {
     color: blue;
 }
 
@@ -45,9 +49,9 @@ header nav a:hover{
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
-}   
+}
 
-.box h2{
+.box h2 {
     margin: 20px;
     background-color: aqua;
 }
@@ -69,12 +73,13 @@ main {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
-    
+
 }
 
 .div2 {
     font-size: 150%;
     font-family: sans-serif;
+    
 }
 
 section h3 {
@@ -84,7 +89,7 @@ section h3 {
 }
 
 section div {
-   flex: 0 0 77%;
+    flex: 0 0 77%;
 }
 
 .container {
@@ -99,6 +104,9 @@ section div {
     max-height: 200px;
     flex-basis: calc(50% - 1em);
     margin: 6px;
+    border-style: solid;
+    border-radius: 5px;
+    
 }
 
 .first {
@@ -113,27 +121,34 @@ section div {
     align-items: flex-start;
     position: absolute;
     background-color: aqua;
-    padding-left: 1%;
-    height: 8vh;
-    width: 25vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3px;
     font-family: sans-serif;
+    font-weight: 900;
+    border-radius: 1px;
+}
+
+.first div {
+    margin-top: 20%;
+    padding-top: 4px
 }
 
 .container .first {
     background-image: url(https://www.santacruz.org/wp-content/uploads/theme/Surfing-in-Santa-Cruz-Homepage-Banner.jpg);
 }
 
-.container .first:hover{
+.container .first:hover {
     opacity: .8;
-} 
+}
 
 .container .second {
     background-image: url(https://www.matrixvisual.com/wp-content/uploads/2016/07/LED-Wall-Benefits.png);
-    }
+}
 
-.container .second:hover{
+.container .second:hover {
     opacity: .8;
-}    
+}
 
 .container .third {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4VYSsa0LC6nxUKWQPRlDfkJhd9SENdRuHA&usqp=CAU);
@@ -141,7 +156,7 @@ section div {
     background-size: cover;
 }
 
-.container .third:hover{
+.container .third:hover {
     opacity: .8;
 }
 
@@ -149,7 +164,7 @@ section div {
     background-image: url(https://previews.123rf.com/images/viperagp/viperagp1402/viperagp140200168/26220936-3d-pastel-puzzle-background.jpg);
 }
 
-.container .fourth:hover{
+.container .fourth:hover {
     opacity: .8;
 }
 
@@ -159,15 +174,18 @@ section div {
     background-size: cover;
 }
 
-.container .fifth:hover{
+.container .fifth:hover {
     opacity: .8;
 }
 
-section nav a {
+.box1 nav {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
     font-size: 170%;
-     font-family: sans-serif;
- }
+    font-family: sans-serif;
+}
 
- section nav a:hover{
+section nav a:hover {
     color: red;
 }
