@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* Started creating my css style sgeet following the element order list */
 body {}
 
 header {
@@ -100,6 +100,7 @@ section div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .item {
@@ -110,14 +111,14 @@ section div {
     margin: 6px;
     border-style: solid;
     border-radius: 5px;
-    
+    box-shadow: 7px 7px 3px lightblue;
 }
 
 .first {
     min-height: 400px;
     flex-basis: 100%;
 }
-
+/* Started targeting more specific lines of code to only affect certain areas of my css */
 .item div {
     display: flex;
     flex-direction: column;
@@ -137,7 +138,7 @@ section div {
     margin-top: 37vh;
     padding-top: 4px
 }
-
+/* had to do multiple container files for different images  */
 .container .first {
     background-image: url(https://www.santacruz.org/wp-content/uploads/theme/Surfing-in-Santa-Cruz-Homepage-Banner.jpg);
 }
@@ -181,7 +182,7 @@ section div {
 .container .fifth:hover {
     opacity: .8;
 }
-
+/* I was able to space my bottom nav links evenly with the following code uing top margin to help center it */
 .box1 nav {
     display: flex;
     flex-wrap: wrap;
