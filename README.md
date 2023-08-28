@@ -1,3 +1,3 @@
 This is a portfolio I created to showcase some skills ive learned in hmtl and css techniques. Im currently on my second week of coding bootcamp and this is the results so far! Im excited and eager to see where this new journey takes me. On thid ptoject I got to work eith css flexbox and html code. Here is a screenshot of the portfolio I created along with a link to the deployed repo.
-![Alt text](images/bkness.github.io_advanced-css-portfolio_.png?raw=true "readme")
+![Alt text](images/_Users_brandonkelly_bootcamp_homeworks_advanced-css-portfolio_advanced-css-portfolio_index.html.png?raw=true "readme")
 [Brandon's Portfolio](https://bkness.github.io/advanced-css-portfolio/) 

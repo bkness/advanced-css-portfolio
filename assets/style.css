@@ -106,7 +106,7 @@ section div {
 }
 
 .item {
-    filter: brightness(60%);
+    filter: brightness(75%);
     border: 5px solid aqua;
     min-height: 200px;
     max-height: 200px;
