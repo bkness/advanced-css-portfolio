@@ -258,7 +258,6 @@ section nav a:hover {
         flex-basis: unset; 
     }
 
-    .item,
     .item div {
         width: 100%;
         font-size: 2vh;
@@ -336,7 +335,6 @@ section nav a:hover {
             flex-basis: unset;
         }
     
-        .item,
         .item div {
             width: 100%;
             font-size: 2vh;
