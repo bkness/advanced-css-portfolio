@@ -194,6 +194,7 @@ section div {
     background-position: center;
     background-size: cover;
 }
+
 .container .fifth:hover {
     filter: brightness(100%);
     background-size: 105%;
@@ -216,30 +217,70 @@ section nav a:hover {
     color: red;
 }
 
-/* 1170×2532 pixels at 460ppi */
-@media only screen 
-    and (width: 390px) 
-    and (height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) {
-        header {
-            height: 15vh;
-            justify-content: space-between;
-            
-        }
-          header h1 {
-            font-size: 3vh;
-            width: 13vh;
-          }
-          header nav a {
-            font-size: 2vh;
-            
-          }
-    
-        .box1 nav {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
-          font-size: 3vh;
-          margin-left: 5vh;
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 15vh;
     }
+
+    header h1 {
+        font-size: 3.3vh;
+
     }
+
+    header nav a {
+        font-size: 2.1vh;
+
+
+    }
+
+    .box {
+        height: 13vh;
+    }
+
+    .box h2 {
+        font-size: 3vh;
+    }
+
+
+    section h3 {
+        font-size: 5vh;
+        margin-left: 11vh;
+        border: none;
+    }
+
+    .div2 {
+        font-size: 3vh;
+    }
+
+
+    .item,
+    .item div {
+        width: 100%;
+        font-size: 2vh;
+    }
+
+    section .container {
+        width: 48vh;
+    }
+
+    .item p {
+        font-size: 12px;
+    }
+
+    .container .second {
+        background-position: center;   
+        background-size: cover;
+    }
+
+    .box1 nav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .box1 nav a {
+        margin: 5px 0;
+    }
+}
