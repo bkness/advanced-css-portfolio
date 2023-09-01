@@ -272,6 +272,10 @@ section nav a:hover {
         font-size: 12px;
     }
 
+    .container {
+        width: 100%;
+        }
+
     .container .second {
         background-position: center;   
         background-size: cover;
@@ -344,6 +348,10 @@ section nav a:hover {
     
         .item p {
             font-size: 12px;
+        }
+    
+         .container {
+        width: 100%;
         }
     
         .container .second {
