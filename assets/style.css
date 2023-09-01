@@ -273,7 +273,7 @@ section nav a:hover {
     }
 
     .container {
-        width: 100%;
+        width: 100% !important;
         }
 
     .container .second {
@@ -332,7 +332,7 @@ section nav a:hover {
         }
         
         .item { 
-            width: 100%;
+            width: 100% !important;
             flex-basis: unset;
         }
     
