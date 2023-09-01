@@ -247,7 +247,7 @@ section nav a:hover {
     section h3 {
         font-size: 5vh;
         margin-left: 11vh;
-        padding-bottom: 5px; 
+        margin-bottom: 3vh;
         border-bottom: 3px solid black;
     }
 
