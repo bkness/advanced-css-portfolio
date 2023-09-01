@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(58, 58, 67);
-    height: 80px;
+    height: 20vh;
 
     padding: 0 20px 0 0;
 }
@@ -59,6 +59,7 @@ header nav a:hover {
 .box h2 {
     margin: 20px;
     background-color: aqua;
+    background: solid;
 }
 
 main {
@@ -78,7 +79,6 @@ main {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
-
 }
 
 .div2 {
@@ -125,7 +125,7 @@ section div {
 /* Started targeting more specific lines of code to only affect certain areas of my css */
 .item div {
     display: flex;
-    opacity: .5;
+    /* opacity: .5; */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -194,7 +194,6 @@ section div {
     background-position: center;
     background-size: cover;
 }
-
 .container .fifth:hover {
     filter: brightness(100%);
     background-size: 105%;
@@ -216,3 +215,31 @@ section div {
 section nav a:hover {
     color: red;
 }
+
+/* 1170×2532 pixels at 460ppi */
+@media only screen 
+    and (width: 390px) 
+    and (height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        header {
+            height: 15vh;
+            justify-content: space-between;
+            
+        }
+          header h1 {
+            font-size: 3vh;
+            width: 13vh;
+          }
+          header nav a {
+            font-size: 2vh;
+            
+          }
+    
+        .box1 nav {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          font-size: 3vh;
+          margin-left: 5vh;
+    }
+    }
