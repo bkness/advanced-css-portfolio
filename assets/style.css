@@ -248,6 +248,7 @@ section nav a:hover {
         font-size: 5vh;
         margin-left: 11vh;
         border: none;
+        border-bottom: 2px solid black;
     }
 
     .div2 {
