@@ -257,7 +257,7 @@ section nav a:hover {
 
     .item,
     .item div {
-        width: 100%;
+        width: 16vh;
         font-size: 2vh;
     }
 
@@ -284,3 +284,74 @@ section nav a:hover {
         margin: 5px 0;
     }
 }
+
+/* 1284×2778 pixels at 460ppi */
+@media only screen 
+    and (width: 430px) 
+    and (height: 932px) 
+    and (-webkit-device-pixel-ratio: 3) {
+        header {
+            height: 15vh;
+        }
+    
+        header h1 {
+            font-size: 3.3vh;
+    
+        }
+    
+        header nav a {
+            font-size: 2.1vh;
+    
+    
+        }
+    
+        .box {
+            height: 13vh;
+        }
+    
+        .box h2 {
+            font-size: 3vh;
+        }
+    
+    
+        section h3 {
+            font-size: 5vh;
+            margin-left: 11vh;
+            border: none;
+        }
+    
+        .div2 {
+            font-size: 3vh;
+        }
+    
+    
+        .item,
+        .item div {
+            width: 16vh;
+            font-size: 2vh;
+        }
+    
+        section .container {
+            width: 48vh;
+        }
+    
+        .item p {
+            font-size: 12px;
+        }
+    
+        .container .second {
+            background-position: center;   
+            background-size: cover;
+        }
+    
+        .box1 nav {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 5%;
+        }
+    
+        .box1 nav a {
+            margin: 5px 0;
+        }
+    }
+     
