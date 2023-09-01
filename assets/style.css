@@ -259,7 +259,7 @@ section nav a:hover {
     }
 
     .item div {
-        width: 100%;
+        width: 16vh;
         font-size: 2vh;
     }
 
@@ -336,7 +336,7 @@ section nav a:hover {
         }
     
         .item div {
-            width: 100%;
+            width: 16vh;
             font-size: 2vh;
         }
     
