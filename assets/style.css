@@ -276,10 +276,6 @@ section nav a:hover {
         font-family: sans-serif;
     }
 
-    .box1 {
-        padding: 10px;
-    }
-
     .box1 h3 {
         margin-left: auto;
         margin-right: auto;
@@ -291,15 +287,21 @@ section nav a:hover {
         margin-left: 40px;
     }
 
-    .item.first {
-        min-height: 170px;
-        /* Adjust the desired height for mobile */
-        max-height: 200px;
-        /* Make sure max-height matches min-height */
+    section h3 {
+        border: none;
+        font-family: sans-serif;
+        font-size: 40px;
     }
 
     .container.item {
-        margin-left: 40px;
+        margin: 40px;
+    }
+
+    .container .first div {
+        position: absolute;
+        bottom: 10px; /* Adjust the distance from the bottom as needed */
+        width: 100%; /* Make sure it spans the entire width */
+        text-align: center; /* Center the text */
     }
 
     .div2 {
@@ -310,9 +312,9 @@ section nav a:hover {
         margin-left: 40px;
     }
 
-    section h3 {
-        margin-top: 10px;
-        border: none;
+    .item.first {
+        min-height: 200px; 
+        max-height: 150px; 
     }
 
     .item {
