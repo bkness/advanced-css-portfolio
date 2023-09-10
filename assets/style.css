@@ -297,15 +297,7 @@ section nav a:hover {
     .container.item {
         margin: 40px;
     }
-
-    .container .first div {
-        position: absolute;
-        bottom: 10px; /* Adjust the distance from the bottom as needed */
-        z-index: 1; /* Set a higher z-index to keep it on top of the image */
-        width: 100%;
-        text-align: center; /* Center the text */
         
-    }
 
     .div2 {
         font-size: 18px;
@@ -315,18 +307,20 @@ section nav a:hover {
         margin-left: 40px;
     }
 
-    .item.first {
-        min-height: 250px;
+     .first { 
+        min-height: 230px;
         max-height: 200px;
-    }
+    }   
 
     .item {
         flex-basis: 100%;
     }
 
-    .item div {
+    .first div {
         position: static;
         text-align: center;
+        margin-top: 0;
+        padding-top: 0;
     }
 
     .container .second {
