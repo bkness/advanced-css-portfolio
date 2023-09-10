@@ -298,6 +298,9 @@ section nav a:hover {
         margin: 40px;
     }
         
+    .item .first {
+        width: 50px;
+    }
 
     .div2 {
         font-size: 18px;
@@ -317,10 +320,8 @@ section nav a:hover {
     }
 
     .first div {
-        position: static;
-        text-align: center;
         margin-top: 0;
-        padding-top: 0;
+        padding-top: 0; 
     }
 
     .container .second {
