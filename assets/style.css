@@ -100,6 +100,7 @@ section h3 {
     border-right: 3px solid gray;
     font-size: 5vh;
     width: auto;
+    text-align: center;
 }
 
 section div {
@@ -300,8 +301,11 @@ section nav a:hover {
     .container .first div {
         position: absolute;
         bottom: 10px; /* Adjust the distance from the bottom as needed */
+        /* left: 3px; Adjust the distance from the left as needed */
+        z-index: 1; /* Set a higher z-index to keep it on top of the image */
         width: 100%; /* Make sure it spans the entire width */
         text-align: center; /* Center the text */
+        
     }
 
     .div2 {
@@ -313,8 +317,8 @@ section nav a:hover {
     }
 
     .item.first {
-        min-height: 200px; 
-        max-height: 150px; 
+        min-height: 200px;
+        max-height: 150px;
     }
 
     .item {
