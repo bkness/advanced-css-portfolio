@@ -250,7 +250,7 @@ section nav a:hover {
     color: #1C7A1C;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 896px) {
     header {
         height: auto;
         width: auto;
