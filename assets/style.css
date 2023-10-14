@@ -5,7 +5,7 @@
 
 body {
     background-color: #B0C4DE;
-    position: fixed;
+    overflow-x: hidden;
 }
 
 /* here i added flex and spacebetween to give the nave bar text proper spacing */
@@ -251,18 +251,18 @@ section nav a:hover {
     color: #1C7A1C;
 }
 
-@media screen and (min-width: 390px) and (max-width: 844px)  {
+@media screen and (min-width: 390px) and (max-width: 844px) {
     header {
         height: auto;
         width: auto;
     }
 
     header h1 {
-        padding: 10px; 
+        padding: 10px;
         background-color: transparent;
         font-size: 7vh;
         font-family: sans-serif;
-        text-align: center;  
+        text-align: center;
     }
 
     header nav {
