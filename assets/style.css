@@ -3,17 +3,10 @@
     padding: 0;
 }
 
-html {
-    overflow-x: hidden;
-}
-
 body {
     background-color: #B0C4DE;
 }
 
-/* here i added flex and spacebetween to give the nave bar text proper spacing */
-/* added a bakground color and fixed height and right padding, */
-/* right padding can also be achieved wih padding-right  */
 header {
     display: flex;
     justify-content: space-between;
@@ -274,6 +267,7 @@ section nav a:hover {
     
     .subtitleBox {
         height: 150px;
+        width: 100%;
     }
     
     .subtitleBox h2 {
