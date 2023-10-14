@@ -5,6 +5,7 @@
 
 body {
     background-color: #B0C4DE;
+    position: fixed;
 }
 
 /* here i added flex and spacebetween to give the nave bar text proper spacing */
