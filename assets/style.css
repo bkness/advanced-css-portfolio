@@ -257,36 +257,25 @@ section nav a:hover {
     }
 
     header h1 {
-        padding: 10px;
-        color: none;
+        padding: 10px; 
         background-color: transparent;
         font-size: 7vh;
         font-family: sans-serif;
-        text-align: center;
+        text-align: center;  
     }
 
     header nav {
         flex-direction: column;
-        align-items: center;
         text-align: center;
-    }
 
-    h2 {
-        display: none;
-    }
-
-    header nav a {
-        margin-bottom: 5px;
     }
 
     .subtitleBox {
-        height: 200px;
+        height: 150px;
     }
 
     .subtitleBox h2 {
-        text-align: center;
-        background-color: transparent;
-        font-family: sans-serif;
+        display: none;
     }
 
     .container h3 {
@@ -304,5 +293,37 @@ section nav a:hover {
         border: none;
         font-family: sans-serif;
         font-size: 40px;
+    }
+
+    .aboutText {
+        font-size: 18px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .first {
+        min-height: 230px;
+        max-height: 220px;
+    }
+
+    .item {
+        flex-basis: 100%;
+    }
+
+    .subContainer .second {
+        background-size: cover;
+        background-position: center;
+    }
+
+    section.container:last-child {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section.container:last-child nav {
+        display: flex;
+        flex-direction: column;
     }
 }
