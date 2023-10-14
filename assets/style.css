@@ -3,9 +3,12 @@
     padding: 0;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #B0C4DE;
-    overflow-x: hidden;
 }
 
 /* here i added flex and spacebetween to give the nave bar text proper spacing */
@@ -53,10 +56,9 @@ header nav a:hover {
     background-repeat: no-repeat;
     border: 1px solid black;
     height: 115px;
-    min-width: auto;
+    max-width: auto;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
     text-align: right;
 }
 
@@ -256,7 +258,7 @@ section nav a:hover {
         height: auto;
         width: auto;
     }
-
+    
     header h1 {
         padding: 10px;
         background-color: transparent;
@@ -264,65 +266,58 @@ section nav a:hover {
         font-family: sans-serif;
         text-align: center;
     }
-
+    
     header nav {
         flex-direction: column;
         text-align: center;
-
     }
-
+    
     .subtitleBox {
         height: 150px;
     }
-
+    
     .subtitleBox h2 {
         display: none;
     }
-
-    .container h3 {
+    
+    .container h3,
+    .aboutText {
+        font-family: sans-serif;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
-        font-family: sans-serif;
     }
-
+    
     .subContainer {
         margin-left: 40px;
     }
-
+    
     section h3 {
         border: none;
         font-family: sans-serif;
         font-size: 40px;
     }
-
-    .aboutText {
-        font-size: 18px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
+    
     .first {
         min-height: 230px;
         max-height: 220px;
     }
-
+    
     .item {
         flex-basis: 100%;
     }
-
+    
     .subContainer .second {
         background-size: cover;
         background-position: center;
     }
-
+    
     section.container:last-child {
         display: flex;
         justify-content: center;
         text-align: center;
     }
-
+    
     section.container:last-child nav {
         display: flex;
         flex-direction: column;
