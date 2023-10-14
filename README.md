@@ -17,3 +17,5 @@ With the groundwork laid in HTML and CSS, the journey into coding continues with
 # Description 
 
 ![Here an example of my portfolio can be viewed:](https://github.com/bkness/advanced-css-portfolio/assets/123907755/c08bb686-80f7-4f14-9d01-8b8d01018172)
+
+

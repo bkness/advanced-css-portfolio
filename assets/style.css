@@ -3,18 +3,20 @@
     padding: 0;
 }
 
-/* Started creating my css style sgeet following the element order list */
 body {
     background-color: #B0C4DE;
 }
 
+/* here i added flex and spacebetween to give the nave bar text proper spacing */
+/* added a bakground color and fixed height and right padding, */
+/* right padding can also be achieved wih padding-right  */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(57, 57, 62);
     height: 140px;
-    padding: 0 15px 0 0;
+    padding-right: 15px;
 }
 
 header h1 {
@@ -26,26 +28,24 @@ header h1 {
     background-color: #228B22;
 }
 
-
-header nav {
-    display: flex;
-}
-
+header nav,
 header nav a {
     font-size: 3vh;
     font-weight: 600;
     min-width: auto;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+header nav a {
     margin-left: 10px;
     color: #228B22;
-    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
 }
 
 header nav a:hover {
     color: #1C7A1C;
 }
 
-.box {
-    /* background-image: url(https://png.pngtree.com/background/20220714/original/pngtree-blue-arrows-picture-image_1604501.jpg); */
+.subtitleBox {
     background-image: url(https://4kwallpapers.com/images/walls/thumbs_2t/12523.jpg);
     background-size: cover;
     background-position: center;
@@ -59,7 +59,7 @@ header nav a:hover {
     text-align: right;
 }
 
-.box h2 {
+.subtitleBox h2 {
     margin: 20px;
     background-color: #228b22;
     background: solid;
@@ -76,7 +76,7 @@ main {
     flex-wrap: wrap;
 }
 
-.box1 {
+.container {
     justify-content: center;
     display: flex;
     padding: 15px;
@@ -85,14 +85,13 @@ main {
     justify-content: space-between;
 }
 
-.box1 h3 {
+.container h3 {
     line-height: 2;
 }
 
-.div2 {
+.aboutText {
     font-size: 25px;
     font-family: sans-serif;
-
 }
 
 section h3 {
@@ -107,11 +106,10 @@ section div {
     flex: 0 0 77%;
 }
 
-.container {
+.subContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .item {
@@ -121,7 +119,6 @@ section div {
     max-height: 200px;
     flex-basis: calc(50% - 1em);
     margin: 6px;
-    /* border-style: solid; */
     border-radius: 5px;
     box-shadow: 10px 10px 5px grey;
 }
@@ -131,10 +128,9 @@ section div {
     flex-basis: 100%;
 }
 
-/* Started targeting more specific lines of code to only affect certain areas of my css */
-.item div {
+.item div,
+.first div {
     display: flex;
-    /* opacity: .5; */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -149,78 +145,90 @@ section div {
     margin-top: 10px;
 }
 
-
 .first div {
     margin-top: 250px;
     padding-top: 4px;
 }
 
+.subContainer .first,
+.subContainer .second,
+.subContainer .third,
+.subContainer .fourth,
+.subContainer .fifth {
+    background-position: center;
+    background-size: cover;
+}
+
+.subContainer .first:hover,
+.subContainer .second:hover,
+.subContainer .third:hover,
+.subContainer .fourth:hover,
+.subContainer .fifth:hover {
+    filter: brightness(100%);
+}
+
 /* had to do multiple container files for different images  */
-.container .first {
+.subContainer .first {
     background-image: url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1513&q=80);
     background-position: bottom;
     background-size: cover;
 }
 
-.container .first:hover {
+.subContainer .first:hover {
     filter: brightness(100%);
     background-size: 102%;
 }
 
-.container .second {
+.subContainer .second {
     background-image: url(https://www.matrixvisual.com/wp-content/uploads/2016/07/LED-Wall-Benefits.png);
     background-size: 120%;
     background-position: center;
     /* background-size: cover; */
 }
 
-.container .second:hover {
+.subContainer .second:hover {
     filter: brightness(100%);
     background-size: 125%;
     background-position: center;
     background-size: cover;
 }
 
-.container .third {
+.subContainer .third {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4VYSsa0LC6nxUKWQPRlDfkJhd9SENdRuHA&usqp=CAU);
     background-position: center;
     background-size: cover;
 }
 
-.container .third:hover {
+.subContainer .third:hover {
     filter: brightness(100%);
     background-size: 105%;
 }
 
-.container .fourth {
+.subContainer .fourth {
     background-image: url(https://c1.wallpaperflare.com/preview/792/591/754/puzzle-last-particles-piece-demarcation.jpg);
     background-position: center;
     background-size: cover;
     background-size: 120%;
 }
 
-.container .fourth:hover {
+.subContainer .fourth:hover {
     filter: brightness(100%);
     background-size: 125%;
 }
 
-.container .fifth {
+.subContainer .fifth {
     background-image: url(https://images6.alphacoders.com/426/426414.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.container .fifth:hover {
+.subContainer .fifth:hover {
     filter: brightness(100%);
     background-size: 105%;
 }
 
-.box1 h3 {
-    padding-top: 20px;
-}
 
-/* I was able to space my bottom nav links evenly with the following code uing top margin to help center it */
-.box1 nav {
+.container nav {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -233,7 +241,7 @@ section div {
     padding-top: 15px;
 }
 
-.box1 nav a {
+.container nav a {
     text-decoration: none;
     color: #228B22;
 }
@@ -263,28 +271,32 @@ section nav a:hover {
         text-align: center;
     }
 
+    h2 {
+        display: none;
+    }
+
     header nav a {
         margin-bottom: 5px;
     }
 
-    .box {
+    .subtitleBox {
         height: 200px;
     }
 
-    .box h2 {
+    .subtitleBox h2 {
         text-align: center;
         background-color: transparent;
         font-family: sans-serif;
     }
 
-    .box1 h3 {
+    .container h3 {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
         font-family: sans-serif;
     }
 
-    .container {
+    .subContainer {
         margin-left: 40px;
     }
 
@@ -292,53 +304,5 @@ section nav a:hover {
         border: none;
         font-family: sans-serif;
         font-size: 40px;
-    }
-
-    .container.item {
-        margin: 40px;
-    }
-        
-    .item .first {
-        width: 50px;
-    }
-
-    .div2 {
-        font-size: 18px;
-        text-align: center;
-        margin-left: auto;
-        text-align: center;
-        margin-left: 40px;
-    }
-
-     .first { 
-        min-height: 230px;
-        max-height: 200px;
-    }   
-
-    .item {
-        flex-basis: 100%;
-    }
-
-    .first div {
-        margin-top: 0;
-        padding-top: 0; 
-    }
-
-    .container .second {
-        background-size: cover;
-        background-position: center;
-    }
-
-    section.box1:last-child {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-
-    }
-
-    section.box1:last-child nav {
-        display: flex;
-        flex-direction: column;
     }
 }

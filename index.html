@@ -12,40 +12,46 @@
 <body>
   <!-- Created Semantic Elements for css styling -->
   <header>
-
     <h1>Brandon Kelly</h1>
     <nav>
-      <a href="#about">About Me</a>
-      <a href="#">Work</a>
-      <a href="#">Contact Me</a>
+      <!-- each link besides resume will take you to the corresponding area  -->
+      <a href="#section1">About Me</a>
+      <a href="#section2">Work</a>
+      <a href="#section3">Contact Me</a>
       <a href="#">Resume</a>
     </nav>
   </header>
 
-  <section class="box">
-    <h2>Cool subtitle here!</h2>
+  <section class="subtitleBox">
+    <h2>Starting my coding journey!</h2>
   </section>
   <!-- Added child and selector elements for more precise targeting with css -->
   <main>
-    <section class="box1">
+    <section class="container" id="section1">
 
       <h3>About Me</h3>
 
-      <div class="div2">
+      <div class="aboutText">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim qui corporis voluptatum nam, dolorem quos
-          necessitatibus aliquid facilis architecto reiciendis, quia officia magni iure aliquam consequatur incidunt id,
-          cupiditate modi.
+          "My name is Brandon Kelly and I'm currently enrolled in a Full Stack Coding bootcamp, where I am immersed in
+          the world of web development. My passion for coding has ignited a desire to pursue a career in this dynamic
+          field. I welcome the challenge of problem-solving while creating elegant, efficient solutions to complex
+          challenges. With a love for clean, maintainable code, I'm excited to contribute to future projects and
+          collaborate with like-minded professionals.
+
+          Outside of coding, I am currently involved with organic agriculture. Before that, I was in the food and
+          beverage industry for 10 years. I enjoy hiking around beautiful Northern Arizona and snowboarding when I can
+          find the time. I am beyond excited to see where the future of code takes me!"
         </p>
       </div>
     </section>
 
-    <section class="box1">
+    <section class="container" id="section2">
 
       <h3>Work</h3>
 
       <!-- Created 5 seperate class elements to individually target the background images with css -->
-      <div class="container">
+      <div class="subContainer">
         <a href="#" class="item first">
           <div>
             <h4>Surf Report</h4>
@@ -85,16 +91,16 @@
 
     </section>
 
-    <section class="box1">
+    <section class="container" id="section3">
       <!-- Used h3 nav referance for this targeting of css -->
       <h3>Contact Me</h3>
       <div>
         <nav>
-          <a href="#">928-274-6725</a>
-          <a href="#">kbrandon@gmail.com</a>
-          <a href="#">GitHub</a>
+          <a href="tel:+9282746725">928-274-6725</a>
+          <a href="mailto:kbrandon863@gmail.com">kbrandon863@gmail.com</a>
+          <a href="https://www.github.com/bkness">GitHub</a>
           <a href="#">Twitter</a>
-          <a href="#">Spotify</a>
+          <a href="https://open.spotify.com/user/kbrandon863">Spotify</a>
         </nav>
       </div>
     </section>
