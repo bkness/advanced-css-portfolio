@@ -246,8 +246,8 @@ section nav a:hover {
 
 @media screen and (min-width: 414px) and (max-width: 896px) {
     header {
-        height: auto;
         width: 100%;
+        height: 180px;
     }
     
     header h1 {
@@ -260,10 +260,11 @@ section nav a:hover {
     header nav {
         flex-direction: column;
         text-align: center;
+        margin-top: 10px;
     }
     
     .subtitleBox {
-        height: 150px;
+        height: 110px;
         width: 100%;
     }
     
@@ -319,4 +320,6 @@ section nav a:hover {
         display: flex;
         flex-direction: column;
     }
-}
+} 
+
+
