@@ -5,6 +5,7 @@
 
 body {
     background-color: #B0C4DE;
+    overflow-x: hidden;
 }
 
 header {
@@ -244,19 +245,14 @@ section nav a:hover {
 }
 
 @media screen and (min-width: 390px) and (max-width: 844px) {
-   body {
-   overflow-x: hidden;
-   overflow-y: auto;
-   }
-
     header {
         height: auto;
         width: auto;
     }
     
     header h1 {
-        padding: 10px;
-        background-color: transparent;
+        padding: 10px; 
+        background-color: transparent; 
         font-size: 7vh;
         font-family: sans-serif;
         text-align: center;
