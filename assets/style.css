@@ -244,7 +244,7 @@ section nav a:hover {
     color: #1C7A1C;
 }
 
-@media screen and (min-width: 414px) and (max-width: 896px) {
+@media screen and (min-width: 414px) and (max-width: 1056px) {
     header {
         width: 100%;
         height: 180px;
@@ -258,6 +258,7 @@ section nav a:hover {
     }
     
     header nav {
+        display: flex;
         flex-direction: column;
         text-align: center;
         margin-top: 10px;
@@ -271,14 +272,16 @@ section nav a:hover {
     .subtitleBox h2 {
         display: none;
     }
-    
+    .container {
+        display: flex;
+    }
+
     .container h3,
     .aboutText {
         font-family: sans-serif;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10px;
     }
     
     .subContainer {
@@ -289,7 +292,6 @@ section nav a:hover {
         border: none;
         font-family: sans-serif;
         font-size: 40px;
-        flex: none;
     }
     
     .first {
@@ -297,10 +299,22 @@ section nav a:hover {
         max-height: 220px;
     }
     
+    .item div,
+   .first div {
+   padding: 0 0 0 0;
+   margin: 0 0 0 0;
+    }
+
     .item {
-        flex-basis: 100%;
+        flex-basis: 75%;
+        flex-direction: column;
+        margin-right: 45px;
     }
     
+    section div {
+        flex: 0 0 100%;
+    }
+
     .subContainer .second {
         background-size: cover;
         background-position: center;
@@ -311,14 +325,14 @@ section nav a:hover {
     }
 
     section.container:last-child {
-        display: flex;
         justify-content: center;
         text-align: center;
+        
     }
     
     section.container:last-child nav {
-        display: flex;
-        flex-direction: column;
+        
+        flex-direction: column; 
     }
 } 
 
